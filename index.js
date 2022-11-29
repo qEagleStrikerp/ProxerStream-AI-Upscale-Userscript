@@ -8,6 +8,7 @@
 // @grant        GM_xmlhttpRequest
 // @connect      proxer.me
 // @require      https://raw.githubusercontent.com/mobooru/Anime4K/master/index.js
+// @license      GPL-3.0
 // ==/UserScript==
 
 'use strict';
@@ -233,12 +234,3 @@ function renderFrameLegacy() {
         });
     }
 }
-
-//* To dos
-// Werbung berücksichtigen
-// Bessere Shader implementieren
-// Nutzer auffordern, Hardwarebeschleunigung zu aktivieren
-// Fix mouseclick events
-// Dokumentation verbessern
-// Loadingscreen?
-// Find a solution for the small resize problem
